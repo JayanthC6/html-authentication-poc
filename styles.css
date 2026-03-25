@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --primary-color: #0d6efd;
+  --hover-color: #0b5ed7;
+  --text-color: #212529;
+  --card-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.auth-page {
+  background: linear-gradient(135deg, #e9f2ff, #f7f9fc);
+}
+
+.auth-card,
+.dashboard-card {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s ease;
+}
+
+.auth-card-sm {
+  max-width: 420px;
+}
+
+.auth-card-md {
+  max-width: 520px;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control {
+  border-radius: 6px;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
+  transform: translateY(-1px);
+}
+
+.auth-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.auth-links a:hover {
+  color: var(--hover-color);
+}
+
+.password-toggle {
+  border-color: #ced4da;
+}
+
+.dashboard-page {
+  background: #f8f9fa;
+}
+
+@media (max-width: 575.98px) {
+  .auth-card .card-body,
+  .dashboard-card .card-body {
+    padding: 1rem;
+  }
+}
