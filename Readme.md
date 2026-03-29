@@ -1,6 +1,6 @@
-# CampusPe Authentication System (Bootstrap 5)
+# Bootstrap 5 Authentication UI - Intern Assignment
 
-This project is a responsive authentication flow built with HTML, Bootstrap 5, Bootstrap Icons, and custom CSS.
+This project contains 5 responsive HTML pages styled with Bootstrap 5 and a shared custom stylesheet.
 
 ## Pages Included
 
@@ -9,39 +9,51 @@ This project is a responsive authentication flow built with HTML, Bootstrap 5, B
 - `forgot-password.html` - Forgot password page
 - `reset-password.html` - Reset password page
 - `dashboard.html` - Dashboard page
+- `styles.css` - Shared custom design styles
 
-## Styling and UI Features
+## Features Implemented
 
-- Bootstrap 5 CDN integrated on all pages
-- Bootstrap JavaScript bundle integrated on all pages
-- Bootstrap Icons integrated for UI enhancements
-- Custom `styles.css` with:
-	- custom color scheme
-	- Google Fonts integration
-	- button and link hover effects
-	- card box shadows
-	- gradient background styling
-	- custom spacing and smooth transitions
-- Fully responsive layouts for desktop, laptop, tablet, and mobile
+- Bootstrap 5 CDN integration on all pages
+- Bootstrap JavaScript bundle on all pages
+- Bootstrap Icons integration
+- Card-based layouts for auth pages
+- Responsive design for desktop, laptop, tablet, and mobile
+- Custom gradient background and color scheme
+- Google Fonts (`Poppins`) integration
+- Hover effects for buttons and links
+- Smooth transitions and card shadows
+- Password visibility toggle on reset page
+- Bootstrap navbar and clean dashboard layout
+
+## Project Structure
+
+```
+Intern-Assignment/
+├── index.html
+├── register.html
+├── forgot-password.html
+├── reset-password.html
+├── dashboard.html
+├── styles.css
+├── README.md
+└── Screenshots/
+    └── .gitkeep
+```
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
+4. Use page links to navigate through all pages.
 
 ## Screenshots
 
-### Login Page
-![Login Page](screenshots/login.png)
+Add screenshots of all pages in the `Screenshots/` folder before final submission.
 
-### Registration Page
-![Register Page](screenshots/register.png)
+## GitHub Submission Checklist
 
-### Forgot Password Page
-![Forgot Password](screenshots/forgot-password.png)
-
-### Reset Password Page
-![Reset Password](screenshots/reset-password.png)
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-## Notes
-
-- `login.html` is kept in the repository for compatibility.
-- Main login entry page for this assignment is `index.html`.
+- [ ] Repository is public
+- [ ] All files are pushed
+- [ ] Screenshots added
+- [ ] LMS submitted with repository link
