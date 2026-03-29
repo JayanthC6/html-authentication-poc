@@ -37,7 +37,6 @@ Intern-Assignment/
 ├── styles.css
 ├── README.md
 └── Screenshots/
-    └── .gitkeep
 ```
 
 ## How to Run
