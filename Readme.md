@@ -1,6 +1,6 @@
 # Bootstrap 5 Authentication UI - Intern Assignment
 
-This project contains 5 responsive HTML pages styled with Bootstrap 5 and a shared custom stylesheet.
+This assignment contains 5 responsive HTML pages styled with Bootstrap 5 and a shared custom stylesheet.
 
 ## Pages Included
 
@@ -50,9 +50,3 @@ Intern-Assignment/
 
 Add screenshots of all pages in the `Screenshots/` folder before final submission.
 
-## GitHub Submission Checklist
-
-- [ ] Repository is public
-- [ ] All files are pushed
-- [ ] Screenshots added
-- [ ] LMS submitted with repository link
